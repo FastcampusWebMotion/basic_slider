@@ -29,6 +29,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 #slider .panel li:nth-of-type(1) {
   background-image: url(../img/pic1.jpg);
@@ -79,6 +80,21 @@ a {
   margin-top: -160px;
   right: -160px;
   transition: 1s;
+}
+#slider #ring.rot0 {
+  transform: rotate(0deg);
+}
+#slider #ring.rot1 {
+  transform: rotate(60deg);
+}
+#slider #ring.rot2 {
+  transform: rotate(120deg);
+}
+#slider #ring.rot3 {
+  transform: rotate(180deg);
+}
+#slider #ring.rot4 {
+  transform: rotate(240deg);
 }
 
 /*# sourceMappingURL=style.css.map */

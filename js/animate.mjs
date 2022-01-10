@@ -1,4 +1,4 @@
-class Animate {
+export default class Animate {
     constructor(selector, option){
         this.selector = selector;
         this.option = {duration:500, ...option};
