@@ -1,8 +1,7 @@
 export default class Animate {
     constructor(selector, option){
         this.selector = selector;
-        this.option = {duration:500, ...option};
-        console.log(this.option);
+        this.option = {duration:500, ...option};       
         this.startTime= performance.now();
         this.currentValue= null;
         this.isString = typeof this.option.value;
